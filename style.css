@@ -10,6 +10,9 @@ html,body{
 width: 100%;
 
 }
+body{
+    overflow-x:hidden ;
+}
 section{
     height: 100%;
     width: 100%;
@@ -19,7 +22,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 80px ;
+    padding: 60px 100px ;
 }
 .part2{
     display: flex;
@@ -48,7 +51,7 @@ nav button{
     border-radius: 1px solid black;
 }
 .center{
-    padding: 80px;
+    padding: 70px 100px;
     display: flex;
     height: 80%;
     width: 100%;
@@ -60,10 +63,131 @@ nav button{
 .center-part2{
     height: 100%;
     width: 56%;
+    position: relative;
 
 }
 .center-part1 h1{
-    loin
+    line-height: 1.2;
     font-size: 100px;
     font-family: monospace;
+}
+.center-part1 p{
+    font-size: 29px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 28px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2 img{
+    position: absolute;
+    height: 100%;
+    right: 0;
+
+}
+.sectionIbottom{
+    display: flex;
+    align-items: center;
+    /* padding: 30px 120px; */
+    justify-content: space-between;
+}
+.sectionIbottom img{
+height: 30px;
+}
+.section2 .Servies{
+/* background-color: red; */
+margin-top: 30px;
+padding: 40px 120px;
+display: flex;
+justify-content: flex-start;
+align-items:center;
+
+}
+.Servies h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-size: 60px;
+}
+.Servies p{
+    width: 40%;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.container{
+    height: 85%;
+    width: 100%;
+    padding: 40px 120px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+
+}
+.elem{
+    flex-shrink: 0;
+    height: 450px;
+    width: 47%;
+    margin: 30px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 20px 0px black;
+    display: flex;
+
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h2{
+    font-size: 45px;
+    font-weight: 500;
+    width: 70%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    background-color: #9AE975;
+
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 20px;
+}
+.elem-part1 h4 i{
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+}
+.black{
+    background-color: black;
+}
+.line1 .x h2{
+    background-color: #fff;
+
+}
+.line1 .elem-part2 img{
+    background-color: black;
 }
