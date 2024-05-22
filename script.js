@@ -71,6 +71,30 @@ function page2Animation(){
         duration:1
     },"kumar")
 }
+function page3Animation(){
+    var t4=gsap.timeline()
+    t4.from(".center2-part1 h2",{
+        x:-200,
+        opacity:0,
+        marker:true,
+        duration:0.5
+    })
+    t4.from(".center2-part1 p",{
+        x:-200,
+        opacity:0,
+        duration:0.4
+    })
+    t4.from(".center2-part1 button",{
+        opacity:0,
+        duration:0.4
+    })
+    t4.from(".center2-part2 img",{
+        opacity:0,
+        duration:0.5
+    },"-=0.5")
+}
 page1Animation()
 page2Animation()
+page3Animation()
+
 

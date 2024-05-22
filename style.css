@@ -190,4 +190,128 @@ align-items:center;
 }
 .line1 .elem-part2 img{
     background-color: black;
+    margin-bottom:20px ;
+}
+.section3{
+height: 30%;
+width: 80%;
+margin-left: 0px;
+background-color: grey;
+margin-top:100px ;
+}
+.Case-Study{
+    height: 400px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.case{
+    width: 25%;
+    font-size: 100px;
+    background-color: #9AE975;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 40px;
+}
+.para{
+    width: 55%;
+    font-size: 30px;
+    font-weight: 600;
+}
+.last-section{
+    height: 30%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 200px; */
+    background-color: black;
+    border-radius: 20px;
+   margin-left: 300px; 
+}
+.last-section div{
+    width: 15%;
+    height: 100%;
+
+    /* border-right: 2px solid white; */
+}
+.last-section div.bord{
+    height: 65%;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-right: 2px solid white;
+}
+.last-section p{
+    color: white;
+    font-size: 30px;
+}
+.last-section div.xy{
+    border-right: none;
+}
+.last-section h4{
+    color: yellow;
+}
+.last-section div.x{
+    height: 30%;
+    width: 30%;
+    /* background-color: #9AE975; */
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.last-section div.x i{
+    font-size: 50px;
+    
+}
+.center2{
+    padding: 70px 100px;
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.center2-part1{
+    height: 100%;
+    width: 44%;
+}
+.center2-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+
+}
+.center2-part1 h2{
+    line-height: 1.2;
+    font-size: 100px;
+    font-family: monospace;
+}
+.center2-part1 p{
+    font-size: 29px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.center2-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 28px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center2-part2 img{
+    position: absolute;
+    height: 100%;
+    right: 0;
+
 }
